@@ -37,7 +37,9 @@ public enum JetpackType {
     MEK3("mek3", 2),
     MEK3_ARMORED("mek3_armored", 2, "mek3", true, 9),
     MEK4("mek4", 3),
-    MEK4_ARMORED("mek4_armored", 3, "mek4", true, 10),
+    MEK4_ARMORED("mek4_armored", 3, "mek5", true, 15),
+    MEK5("mek5", 4),
+
 
     TE1("te1", 1),
     TE1_ARMORED("te1_armored", 1, "te1", true, 11),

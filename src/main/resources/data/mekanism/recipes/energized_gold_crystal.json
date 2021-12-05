@@ -1,0 +1,25 @@
+{
+  "type": "mekanism:metallurgic_infusing",
+  "itemInput": {
+    "ingredient": {
+      "tag": "mekanism:crystals/gold"
+    }
+  },
+  "infusionInput": {
+    "amount": 20,
+    "tag": "mekanism:redstone"
+  },
+  "output": {
+    "item": "simplyjetpacks:energized_gold_crystal"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismgenerators"
+    }
+  ]
+}

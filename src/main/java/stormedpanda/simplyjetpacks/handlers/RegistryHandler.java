@@ -75,6 +75,7 @@ public class RegistryHandler {
     public static final RegistryObject<JetpackItem> JETPACK_MEK3_ARMORED = ITEMS.register("jetpack_mek3_armored", () -> new JetpackItem(JetpackType.MEK3_ARMORED));
     public static final RegistryObject<JetpackItem> JETPACK_MEK4 = ITEMS.register("jetpack_mek4", () -> new JetpackItem(JetpackType.MEK4));
     public static final RegistryObject<JetpackItem> JETPACK_MEK4_ARMORED = ITEMS.register("jetpack_mek4_armored", () -> new JetpackItem(JetpackType.MEK4_ARMORED));
+    public static final RegistryObject<JetpackItem> JETPACK_MEK5 = ITEMS.register("jetpack_mek5", () -> new JetpackItem(JetpackType.MEK5));
 
     public static final RegistryObject<JetpackItem> JETPACK_TE1 = ITEMS.register("jetpack_te1", () -> new JetpackItem(JetpackType.TE1));
     public static final RegistryObject<JetpackItem> JETPACK_TE1_ARMORED = ITEMS.register("jetpack_te1_armored", () -> new JetpackItem(JetpackType.TE1_ARMORED));
@@ -119,6 +120,7 @@ public class RegistryHandler {
     public static final RegistryObject<SJItem> THRUSTER_MEK2 = ITEMS.register("thruster_mek2", SJItem::new);
     public static final RegistryObject<SJItem> THRUSTER_MEK3 = ITEMS.register("thruster_mek3", SJItem::new);
     public static final RegistryObject<SJItem> THRUSTER_MEK4 = ITEMS.register("thruster_mek4", SJItem::new);
+    public static final RegistryObject<SJItem> THRUSTER_MEK5 = ITEMS.register("thruster_mek5", SJItem::new);
 
     public static final RegistryObject<SJItem> THRUSTER_TE1 = ITEMS.register("thruster_te1", SJItem::new);
     public static final RegistryObject<SJItem> THRUSTER_TE2 = ITEMS.register("thruster_te2", SJItem::new);
@@ -134,6 +136,12 @@ public class RegistryHandler {
     public static final RegistryObject<SJItem> UNIT_CRYOTHEUM = ITEMS.register("unit_cryotheum", SJItem::new);
     public static final RegistryObject<SJItem> UNIT_GLOWSTONE_EMPTY = ITEMS.register("unit_glowstone_empty", SJItem::new);
     public static final RegistryObject<SJItem> UNIT_GLOWSTONE = ITEMS.register("unit_glowstone", SJItem::new);
+    public static final RegistryObject<SJItem> UNIT_ANTIMATTER_EMPTY = ITEMS.register("unit_antimatter_empty", SJItem::new);
+    public static final RegistryObject<SJItem> UNIT_ANTIMATTER = ITEMS.register("unit_antimatter", SJItem::new);
 
     public static final RegistryObject<SJItem> FLUX_CHESTPLATE = ITEMS.register("flux_chestplate", SJItem::new);
+
+    public static final RegistryObject<SJItem> STABILIZED_OSMIUM = ITEMS.register("stabilized_osmium", SJItem::new);
+    public static final RegistryObject<SJItem> ENERGIZED_GOLD_CRYSTAL = ITEMS.register("energized_gold_crystal", SJItem::new);
+    public static final RegistryObject<SJItem> STABILIZED_OSMIUM_PLATING = ITEMS.register("stabilized_osmium_armor_plating", SJItem::new);
 }

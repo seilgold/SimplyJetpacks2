@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ogo",
+    "grg",
+    "ogo"
+  ],
+  "key": {
+    "o": {
+      "tag": "forge:ingots/refined_obsidian"
+    },
+    "g": {
+      "tag": "forge:ingots/refined_glowstone"
+    },
+    "r": {
+      "item": "mekanismgenerators:reactor_glass"
+    }
+  },
+  "result": {
+    "item": "simplyjetpacks:unit_antimatter_empty",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismgenerators"
+    }
+  ]
+}

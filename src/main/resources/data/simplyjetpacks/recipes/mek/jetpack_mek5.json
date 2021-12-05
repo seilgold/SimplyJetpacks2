@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "apa",
+    "fjf",
+    "tit"
+  ],
+  "key": {
+    "a": {
+      "item": "simplyjetpacks:stabilized_osmium_armor_plating"
+    },
+    "p": {
+      "item": "mekanismtools:refined_obsidian_chestplate"
+    },
+    "f": {
+      "item": "mekanism:fluidic_plenisher"
+    },
+    "j": {
+      "item": "simplyjetpacks:jetpack_mek4_armored"
+    },
+    "t": {
+      "item": "simplyjetpacks:thruster_mek5"
+    },
+    "i": {
+      "item": "mekanism:ultimate_induction_cell"
+    }
+  },
+  "result": {
+    "item": "simplyjetpacks:jetpack_mek5",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismgenerators"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismtools"
+    }
+  ]
+}

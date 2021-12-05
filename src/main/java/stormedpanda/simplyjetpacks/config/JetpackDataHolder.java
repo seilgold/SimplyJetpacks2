@@ -4,6 +4,7 @@ import net.minecraftforge.common.ForgeConfigSpec.BooleanValue;
 import net.minecraftforge.common.ForgeConfigSpec.DoubleValue;
 import net.minecraftforge.common.ForgeConfigSpec.IntValue;
 import net.minecraftforge.fml.ModList;
+import net.minecraftforge.fml.common.Mod;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -241,6 +242,28 @@ public class JetpackDataHolder {
             d.hoverMode = true;
             d.emergencyHoverMode = true;
             d.chargerMode = false;
+
+            // TODO: remove!
+            if (true || (ModList.get().isLoaded("mekanismgenerators") && ModList.get().isLoaded("mekanismtools"))) {
+                d = new JetpackDataHolder("mek5", "mekanismgenerators");
+                d.energyCapacity = 50000000;
+                d.energyUsage = 850;
+                d.energyPerTickIn = 30000;
+                d.energyPerTickOut = 30000;
+                d.armorReduction = 12;
+                d.armorEnergyPerHit = 240;
+                d.enchantability = 20;
+                d.speedVertical = 0.9D;
+                d.accelVertical = 0.15D;
+                d.speedVerticalHover = 0.45D;
+                d.speedVerticalHoverSlow = 0.0D;
+                d.speedSideways = 0.2D;
+                d.sprintSpeedModifier = 2.2D;
+                d.sprintEnergyModifier = 5.5D;
+                d.hoverMode = true;
+                d.emergencyHoverMode = true;
+                d.chargerMode = true;
+            }
         }
 
         // TODO: remove!
@@ -354,6 +377,8 @@ public class JetpackDataHolder {
             d.hoverMode = true;
             d.emergencyHoverMode = true;
             d.chargerMode = true;
+
+
         }
 
         // TODO: remove!

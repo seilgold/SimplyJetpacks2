@@ -1,0 +1,25 @@
+{
+  "type": "mekanism:compressing",
+  "itemInput": {
+    "ingredient": {
+      "item": "simplyjetpacks:unit_antimatter_empty"
+    }
+  },
+  "gasInput": {
+    "amount": 2,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "item": "simplyjetpacks:unit_antimatter"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismgenerators"
+    }
+  ]
+}

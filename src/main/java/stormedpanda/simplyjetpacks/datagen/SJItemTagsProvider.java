@@ -49,6 +49,7 @@ public class SJItemTagsProvider extends ItemTagsProvider {
                 .add(RegistryHandler.JETPACK_MEK3_ARMORED.get())
                 .add(RegistryHandler.JETPACK_MEK4.get())
                 .add(RegistryHandler.JETPACK_MEK4_ARMORED.get())
+                .add(RegistryHandler.JETPACK_MEK5.get())
 
                 .add(RegistryHandler.JETPACK_TE1.get())
                 .add(RegistryHandler.JETPACK_TE1_ARMORED.get())

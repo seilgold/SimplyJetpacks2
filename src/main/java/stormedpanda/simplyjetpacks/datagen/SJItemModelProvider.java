@@ -51,6 +51,7 @@ public class SJItemModelProvider extends ItemModelProvider {
         builder(itemGenerated, "jetpack_mek3_armored");
         builder(itemGenerated, "jetpack_mek4");
         builder(itemGenerated, "jetpack_mek4_armored");
+        builder(itemGenerated, "jetpack_mek5");
 
         builder(itemGenerated, "jetpack_te1");
         builder(itemGenerated, "jetpack_te1_armored");
@@ -95,6 +96,7 @@ public class SJItemModelProvider extends ItemModelProvider {
         builder(itemGenerated, "thruster_mek2");
         builder(itemGenerated, "thruster_mek3");
         builder(itemGenerated, "thruster_mek4");
+        builder(itemGenerated, "thruster_mek5");
 
         builder(itemGenerated, "thruster_te1");
         builder(itemGenerated, "thruster_te2");
@@ -110,8 +112,14 @@ public class SJItemModelProvider extends ItemModelProvider {
         builder(itemGenerated, "unit_cryotheum");
         builder(itemGenerated, "unit_glowstone_empty");
         builder(itemGenerated, "unit_glowstone");
+        builder(itemGenerated, "unit_antimatter_empty");
+        builder(itemGenerated, "unit_antimatter");
 
         builder(itemGenerated, "flux_chestplate");
+
+        builder(itemGenerated, "stabilized_osmium");
+        builder(itemGenerated, "energized_gold_crystal");
+        builder(itemGenerated, "stabilized_osmium_armor_plating");
 
         // Patchouli:
         builder(itemGenerated, "guidebook");

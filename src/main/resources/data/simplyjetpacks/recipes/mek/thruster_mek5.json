@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sas",
+    "utu",
+    "chc"
+  ],
+  "key": {
+    "s": {
+      "item": "simplyjetpacks:stabilized_osmium"
+    },
+    "a": {
+      "item": "simplyjetpacks:stabilized_osmium_armor_plating"
+    },
+    "u": {
+      "item": "simplyjetpacks:unit_antimatter"
+    },
+    "t": {
+      "item": "simplyjetpacks:thruster_mek4"
+    },
+    "c": {
+      "item": "mekanism:supercharged_coil"
+    },
+    "h": {
+      "item": "mekanismgenerators:hohlraum"
+    }
+  },
+  "result": {
+    "item": "simplyjetpacks:thruster_mek5",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismgenerators"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "ese",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "simplyjetpacks:stabilized_osmium"
+    },
+    "e": {
+      "item": "simplyjetpacks:energized_gold_crystal"
+    }
+  },
+  "result": {
+    "item": "simplyjetpacks:stabilized_osmium_armor_plating",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismgenerators"
+    }
+  ]
+}
